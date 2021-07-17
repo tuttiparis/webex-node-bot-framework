@@ -8,8 +8,8 @@ app.use(bodyParser.json());
 
 // framework options
 var config = {
-  webhookUrl: 'http://myserver.com/framework',
-  token: 'Tm90aGluZyB0byBzZWUgaGVyZS4uLiBNb3ZlIGFsb25nLi4u',
+  webhookUrl: 'https://my-webhook-demo-1707.herokuapp.com/',
+  token: 'ZWM5OTk1NjItMWMwNC00N2MzLWFkMzMtNTYzYjJhMWMxMjJlZWIyMDEzODQtNjBh_PF84_e82e1089-a320-4de1-851a-ecc9c2c9da6e',
   port: 80
 };
 
