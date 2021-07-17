@@ -13,7 +13,7 @@
     "test-guide-mode-rules": "node_modules/.bin/mocha test/guide-rules-tests.js --timeout 50000 --exit",
     "test-all": "node_modules/.bin/mocha test/bot-tests.js --timeout 50000 --exit; node_modules/.bin/mocha test/invalid-config-tests.js --timeout 50000 --exit; node_modules/.bin/mocha test/integration-tests.js --timeout 50000 --exit; node_modules/.bin/mocha test/mongo-tests.js --timeout 50000 --exit; node_modules/.bin/mocha test/late-discovery-tests.js --timeout 50000 --exit; node_modules/.bin/mocha test/membership-rules-tests.js --timeout 50000 --exit; node_modules/.bin/mocha test/guide-rules-tests.js --timeout 50000 --exit",
     "build": "cd docs && ./build.sh && cd ..",
-    "start": "node index.js"
+    "start": "node whtest.js"
   },
   "repository": {
     "type": "git",
